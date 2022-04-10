@@ -43,7 +43,7 @@ class Header extends React.Component {
         <div class="mx-2">
           <button class="btn btn-primary me-md-2" type="button">
             Edit
-          </button>
+           </button>
         </div>
         <div class="mr-3">
           <button class="btn btn-primary" type="button">
