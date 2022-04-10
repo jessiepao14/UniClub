@@ -1,10 +1,29 @@
-import "./styles.css";
+import Home from "./routes/home.js";
+import ClubProfile from "./routes/club-profile";
+import Calendar from "./routes/calendar";
+import UniNav from "./routes/uni-navbar";
 
-export default function App() {
+import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div>
+      <Router>
+        <Home />
+        <Switch>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/calendar" component={Calendar}></Route>
+          <Route path="/club">
+            <ClubProfile />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
+
+export default App;

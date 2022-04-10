@@ -1,0 +1,14 @@
+img {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 30px;
+}
+
+button {
+  color: #920f30;
+}
