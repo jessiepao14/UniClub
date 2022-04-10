@@ -530,3 +530,8 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 body.dark .logo img {
   filter: brightness(100%);
 }
+.calendar img {
+  height: 26px;
+  width: auto;
+  display: block;
+}

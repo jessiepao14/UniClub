@@ -1,7 +1,7 @@
 import React from "react";
 import List from "./list";
 import UpcomingList from "./upcomingList";
-import calendar from "../images/YhackCalendarFinal.png";
+// import calendar from "../images/YhackCalendarFinal.png";
 import Carousel from "./carousel";
 import EventHeader from "./event-header";
 

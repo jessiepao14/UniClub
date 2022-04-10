@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles.css";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import logo from "../images/ClubHubLogo.png";
 
 function UniNav() {
@@ -31,7 +31,7 @@ function UniNav() {
                   id="navbarSupportedContent"
                 >
                   <ul class="navbar-nav ml-auto py-4 py-md-0">
-                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                       <Link to="/home">
                         <a class="nav-link" href="#">
                           Home
@@ -53,35 +53,9 @@ function UniNav() {
                       </Link>
                     </li>
                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        data-toggle="dropdown"
-                        href="#"
-                        role="button"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Services
-                      </a>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">
-                          Action
-                        </a>
-                        <a class="dropdown-item" href="#">
-                          Another action
-                        </a>
-                        <a class="dropdown-item" href="#">
-                          Something else here
-                        </a>
-                        <a class="dropdown-item" href="#">
-                          Another action
-                        </a>
-                      </div>
-                    </li>
-                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                      <Link to="/contact">
+                      <Link to="/profile">
                         <a class="nav-link" href="#">
-                          Contact
+                          Profile
                         </a>
                       </Link>
                     </li>

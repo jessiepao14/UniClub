@@ -1,0 +1,30 @@
+.header-img {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 30px;
+}
+
+.club-list {
+  margin-left: 2.5rem;
+}
+
+.club-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+  background-color: #f3f0f7;
+}
+
+.calendar-img {
+  height: 20rem;
+  width: 30rem;
+}
+
+/* .home {
+  padding
+} */
